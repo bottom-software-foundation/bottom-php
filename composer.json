@@ -1,0 +1,30 @@
+{
+  "name": "ncplayz/bottomify",
+  "description": "Bottomify in PHP.",
+  "keywords": [
+    "bottomify",
+    "text",
+    "encoder",
+    "decoder",
+    "text-manipulation"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nadir Chowdhury",
+      "email": "chowdhurynadir0@outlook.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=8.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NCPlayz\\Bottomify\\": "src/"
+    }
+  }
+}
